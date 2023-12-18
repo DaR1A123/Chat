@@ -15,6 +15,7 @@ gem "redis", "~> 4.0"
 gem "devise", "~> 4.8"
 gem "draper", "~> 4.0"
 gem "tzinfo-data"
+gem 'cipher'
 group :development, :test do
   gem "pry-rails"
 end
