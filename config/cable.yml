@@ -7,5 +7,5 @@ test:
 
 production:
   adapter: redis
-  url: <%= ENV.fetch("REDIS_URL") { "rediss://red-cm09cqda73kc73c2gfcg:MnsXoDtewDAw1jDLknTyry37j10AgbWt@frankfurt-redis.render.com:6379" } %>
+  url: <%= ENV.fetch("REDIS_URL") { "rediss://red-cm09cqda73kc73c2gfcg:6379" } %>
   channel_prefix: chat_hotwire_production
